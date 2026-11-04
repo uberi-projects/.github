@@ -37,13 +37,46 @@ All contributors are expected to do their best to ensure any code submitted thro
 
 ### AI Use
 
-While contributors are encouraged to write original code or incorporate code snippets from reliable sources online, the use of AI tools to assist with coding and development in this project is acceptable, provided that any significant use of AI tools for coding is clearly acknowledged with inline comments. Inline acknowledgement is not required for proofreading or basic editing, such as finding missing commas, correcting typos, or identifying styling mismatches. Inline acknowledgement is also not required for menial tasks such as recalling function names, syntax, or arguments. Where it *is* required is when AI is used for tasks such as conceptualization, code formulation, or interpretation. By contributing to this project, you take responsibility for ensuring the quality and appropriateness of any AI-generated code.  Example acknowledgement comments include:
+While contributors are encouraged to write original code and incorporate code snippets from reliable sources online, the use of AI tools to assist with coding and development in UB-ERI coding projects is acceptable, provided that any use of AI tools for coding (including conceptualizing, writing, editing, and proofreading) is clearly acknowledged. Where AI use relates to a single section of the code, your disclaimer should be presented through inline comments. Where AI use was extensive throughout a repository, your disclaimer should be presented as a section of your repository's README.md file. All AI disclaimers should clearly state the AI model used. By contributing to the UB-ERI GitHub organization, you take responsibility for ensuring the quality and appropriateness of any AI-generated code, as well as appropriate disclosure of AI use.
+
+Contributors must also protect UB-ERI's proprietary information, intellectual property, and confidential data belonging to partners or research subjects. Never input internal API keys, login credentials, protected data, or authentication tokens into AI tools.
+
+#### Inline Disclaimers
+
+Where AI was used sparingly in a repository, your AI disclaimers should be written inline at the relevant codeblock. For example:
+
+Example 1:
 
       ```
-      # The contributors acknowledge the use of ChatGPT to help select an appropriate formula for this model.
-      # The contributors acknowledge the use of Copilot to generate the base code for this plot, which was later modified and adapted for use in this project.
+      # OpenAI GPT-4o was used to select a formula for this model
       ```
 
+Example 2: 
+
+      ```
+      # Anthropic Claude Haiku 5.5 was used to generate the initial code for this plot
+      ```
+
+#### README.md Disclaimer
+
+If AI was used generally throughout a repository, your AI disclaimer should instead be presented in your repository's README.md file.
+
+Example 1:
+
+      ```
+      #### AI Disclaimer
+      
+      The UB-ERI development team acknowledges the use of Anthropic Claude Sonnet 5.5 agentic tool for proofreading and debugging code in this data repository. The UB-ERI team does not defer any responsibility over output quality or code bugs to the agentic tool.
+      ```
+      
+Example 2:
+
+      ```
+      #### AI Disclaimer
+
+      The UB-ERI development team acknowledges the use of xAI Grok 4.7 agentic tool for creation of all visualizations in this data repository. The UB-ERI team does not defer any responsibility over output quality or code bugs to the agentic tool.
+      ```
+      
 ### Code Confidentiality
 
 Some projects may be part of a private repository. As a contributor, you are expected to maintain the confidentiality and integrity of the code. Do not share any part of the private codebase, including files or screenshots, to anyone outside of team members or the client. Do not grant repository access to others without supervisor approval. By contributing to a private repository, you agree to respect and uphold these privacy guidelines. If you have any questions or concerns about confidentiality, please reach out to the project supervisor.
